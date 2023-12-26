@@ -13,5 +13,5 @@ jobs:
         with:
             working-directory: cypress/examples
             install-command: npm install
-            build: npx cypress info
-            
+            build: npm run build
+            start: npm start
