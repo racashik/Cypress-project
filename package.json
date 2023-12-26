@@ -1,0 +1,27 @@
+{
+  "name": "cypressautomation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules\\.bin\\cypress run",
+    "headTest": "npm run test -- --headed",
+    "chromeTest": "npm run test -- --browser chrome",
+    "recordDashBoardTest": "npm run test -- --record --key f474e4bb-420e-4ffe-b8e8-e2155ed7b69d",
+    "test2": "cypress run --record --key f474e4bb-420e-4ffe-b8e8-e2155ed7b69d",
+    "test5": "cypress run --record --key f474e4bb-420e-4ffe-b8e8-e2155ed7b69d --spec cypress/integration/examples/Test5.js --headed",
+    "test6": "npx cypress run --spec cypress/integration/examples/Test6.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.6.1",
+    "cypress-iframe": "^1.0.1"
+  },
+  "dependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^19.2.0",
+    "@cypress/browserify-preprocessor": "latest",
+    "cypress-plugin-api": "^2.11.1"
+  }
+}
