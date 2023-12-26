@@ -1,7 +1,7 @@
 describe('My First Test Suite', function()
 {
 
-it('My First Test Case', function(){
+it('My First Test Case No:1', function(){
 
 cy.visit("https://rahulshettyacademy.com/seleniumPractise/#/");
 cy.get('.search-keyword').type('ca')
